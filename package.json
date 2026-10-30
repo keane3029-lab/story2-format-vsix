@@ -1,0 +1,35 @@
+{
+  "name": "story2-language",
+  "displayName": "Story2 Language Support",
+  "description": "Syntax highlighting and language support for .story2 interactive story files.",
+  "version": "0.1.0",
+  "publisher": "story2",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "story2",
+        "aliases": [
+          "Story2",
+          "story2"
+        ],
+        "extensions": [
+          ".story2"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "story2",
+        "scopeName": "source.story2",
+        "path": "./syntaxes/story2.tmLanguage.json"
+      }
+    ]
+  }
+}
