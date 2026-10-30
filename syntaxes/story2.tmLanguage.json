@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Story2",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.story2",
+      "match": "#.*$"
+    },
+    {
+      "name": "keyword.control.directive.story2",
+      "match": "@(preview|end|scene:|title:|author:)"
+    },
+    {
+      "name": "keyword.operator.choice.story2",
+      "match": "->\\s*(choice:|goto:)"
+    },
+    {
+      "name": "punctuation.separator.story2",
+      "match": "\\|"
+    }
+  ],
+  "scopeName": "source.story2"
+}
